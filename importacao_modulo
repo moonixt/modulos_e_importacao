@@ -1,0 +1,29 @@
+# Importação absoluta
+import random
+
+# Importação relativa
+from math import sqrt, factorial
+
+# Importação relativa
+from modulo1 import somar, multiplicar
+
+
+# sorteia um número aleatório em um intervalo de números
+resultado = random.randint(1, 50)
+print(resultado)
+
+# calcula raiz quadrada de um número
+resultado = sqrt(20)
+print(resultado)
+
+# calcula fatorial de um número
+resultado = factorial(5)
+print(resultado)
+
+# calcula soma de 2 números
+resultado = somar(2, 10)
+print(resultado)
+
+# calcula multiplicação de 2 números
+resultado = multiplicar(2, 10)
+print(resultado)
